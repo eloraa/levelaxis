@@ -19,14 +19,14 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className={cn('h-18 fixed inset-x-0 top-0 transition-all duration-300', isScrolled ? 'bg-white border-b border-b-secondary-50' : 'bg-transparent border-transparent')}>
+    <header className={cn('h-18 fixed inset-x-0 top-0 transition-all duration-300 bg-white border-b border-b-secondary-50 z-30', !isScrolled && 'bg-transparent border-transparent')}>
       <div className="h-full flex items-center justify-between container">
         <div>
           <Link href="/">
-            <Logo className="h-8 md:h-9 text-primary-600" />
+            <Logo className="h-8 md:h-10 text-primary-600" />
           </Link>
         </div>
-        <div className="absolute left-1/2 -translate-x-1/2">
+        <div className="absolute left-1/2 -translate-x-1/2 max-lg:hidden">
           <div>
             <ul className="flex items-center gap-4">
               {links.map((link, index) => (
@@ -44,7 +44,7 @@ export const Header = () => {
           </div>
         </div>
         <div>
-          <Button size="lg" className="h-10 text-sm bg-primary-600 px-1 font-semibold group overflow-hidden hover:bg-secondary-500 focus:bg-secondary-500">
+          <Button size="lg" className="h-11 text-sm bg-primary-600 px-1.5 font-semibold group overflow-hidden hover:bg-secondary-500 focus:bg-secondary-500">
             <div className="px-2 relative flex flex-col">
               <span className="translate-y-0 will-change-transform transition-transform group-hover:-translate-y-[calc(100%+1rem)]">Book a Call</span>
               <span className="absolute translate-y-[calc(100%+1rem)] will-change-transform transition-transform group-hover:translate-y-0">Book a Call</span>
