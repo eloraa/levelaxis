@@ -1,5 +1,6 @@
 import { HeroScroller } from '@/components/hero-scroller/hero-scroller';
 import { Hero } from '@/components/hero/hero';
+import { CtaSection } from '@/components/sections/cta-section';
 import { OurMission } from '@/components/sections/our-mission';
 import { OurServices } from '@/components/sections/our-services';
 import { OurStory } from '@/components/sections/our-story';
@@ -18,6 +19,7 @@ export default function Home() {
       <OurMission />
       <OurServices />
       <WhyChooseUs />
+      <CtaSection />
     </main>
   );
 }
