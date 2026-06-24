@@ -7,7 +7,7 @@ export const OurStory = () => {
     <section className="container pb-20 pt-16">
       <div className="grid md:grid-cols-2 gap-6 md:gap-26">
         <div className="size-full max-md:h-80 relative">
-          <div className="size-full pb-6">
+          <div className="size-full pb-[23px]">
             <Image src={storyimg} alt="Our story" className="size-full object-cover" />
           </div>
 
