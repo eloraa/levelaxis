@@ -134,7 +134,7 @@ export const Footer = () => {
         </div>
 
         <div className="py-6 border-t border-t-secondary-400 mt-20">
-          <div className="flex items-center justify-between text-[#C5C7CA]">
+          <div className="flex items-center justify-between text-[#C5C7CA] max-md:flex-col gap-5">
             <p className="text-sm">© 2026 LevelAxis. All rights reserved.</p>
             <div>
               <ul className="flex items-center gap-5">
