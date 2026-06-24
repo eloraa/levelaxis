@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import { Geist_Mono, Plus_Jakarta_Sans } from 'next/font/google';
-import './globals.css';
+
 import { Header } from '@/components/header/header';
+import { Footer } from '@/components/footer/footer';
+
+import './globals.css';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: '--font-sans',
@@ -47,6 +50,7 @@ export default function RootLayout({
         <div style={{ display: 'contents' }}>
           <Header />
           {children}
+          <Footer />
         </div>
       </body>
     </html>

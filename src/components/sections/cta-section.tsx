@@ -11,7 +11,7 @@ export const CtaSection = () => {
     <section className="bg-primary-700 py-12 md:py-28">
       <div className="container">
         <div className="flex justify-center">
-          <div className="flex justify-between gap-20 max-md:hidden">
+          <div className="flex justify-between gap-20 max-lg:hidden">
             <div>
               <Image src={person1img} alt="Person 1" className="size-20 min-w-20 rounded-full object-cover" />
             </div>
@@ -38,7 +38,7 @@ export const CtaSection = () => {
               </Button>
             </div>
           </div>
-          <div className="flex justify-between gap-20 max-md:hidden">
+          <div className="flex justify-between gap-20 max-lg:hidden">
             <div className="mt-auto">
               <Image src={person1img} alt="Person 3" className="size-20 min-w-20 rounded-full object-cover" />
             </div>
