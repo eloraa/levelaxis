@@ -23,4 +23,5 @@ export default function Home() {
     </main>
   );
 }
+// Forcing the page to render statically at build time, as we do not have any dynamic data.
 export const dynamic = 'force-static';
