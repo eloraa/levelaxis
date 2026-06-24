@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import person1img from './person1.jpg';
 import person2img from './person2.png';
-import person3img from './person3.jpg';
-import person4img from './person4.jpg';
+import person3img from './person3.png';
+import person4img from './person4.png';
 import { ArrowButton } from '../ui/arrow-button';
 import { Button } from '../ui/button';
 
@@ -40,10 +40,10 @@ export const CtaSection = () => {
           </div>
           <div className="flex justify-between gap-20 max-lg:hidden">
             <div className="mt-auto">
-              <Image src={person1img} alt="Person 3" className="size-20 min-w-20 rounded-full object-cover" />
+              <Image src={person3img} alt="Person 3" className="size-20 min-w-20 rounded-full object-cover" />
             </div>
             <div>
-              <Image src={person2img} alt="Person 4" className="size-20 min-w-20 rounded-full object-cover" />
+              <Image src={person4img} alt="Person 4" className="size-20 min-w-20 rounded-full object-cover" />
             </div>
           </div>
         </div>
