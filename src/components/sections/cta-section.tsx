@@ -19,7 +19,7 @@ export const CtaSection = () => {
               <Image src={person2img} alt="Person 2" className="size-20 min-w-20 rounded-full object-cover" />
             </div>
           </div>
-          <div className="w-full">
+          <div className="lg:w-full">
             <div className="max-w-3xl text-center w-full">
               <h1 className="text-2xl md:text-5xl font-semibold mt-3 leading-[120%] text-white">Let's Build The Future Of Technology Together</h1>
               <p className="text-sm mt-5 text-[#ECEDEE] max-w-lg mx-auto">Partner with LevelAxis to transform ideas into scalable, intelligent, and impactful digital solutions.</p>
