@@ -13,13 +13,13 @@ export const HeroScroller = () => {
             <div className="flex items-center gap-6 py-2 h-full text-white">
               {Array.from({ length: 6 }).map((_, i) => (
                 <Fragment key={i}>
-                  <Link href="#" className="text-3xl md:text-4xl font-semibold uppercase">
+                  <Link href="#" className="text-3xl md:text-5xl font-semibold uppercase">
                     Let's Talk
                   </Link>
                   <span>
                     <StarIcon className="size-11" />
                   </span>
-                  <Link href="#" className="text-3xl md:text-4xl font-semibold uppercase">
+                  <Link href="#" className="text-3xl md:text-5xl font-semibold uppercase">
                     Let's Work Together
                   </Link>
                   <span>
