@@ -1,6 +1,7 @@
 import { HeroScroller } from '@/components/hero-scroller/hero-scroller';
 import { Hero } from '@/components/hero/hero';
 import { OurMission } from '@/components/sections/our-mission';
+import { OurServices } from '@/components/sections/our-services';
 import { OurStory } from '@/components/sections/our-story';
 import { OurValues } from '@/components/sections/our-values';
 
@@ -14,6 +15,7 @@ export default function Home() {
       </div>
       <OurValues />
       <OurMission />
+      <OurServices />
     </main>
   );
 }

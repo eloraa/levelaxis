@@ -5,8 +5,8 @@ import mission2img from './mission2.jpg';
 
 export const OurMission = () => {
   return (
-    <section className="container py-28">
-      <div className="grid md:grid-cols-2 gap-26">
+    <section className="container py-12 md:py-28">
+      <div className="grid md:grid-cols-2 gap-16 md:gap-26">
         <div>
           <div>
             <p className="text-primary-600 font-semibold max-md:text-sm">Our Mission</p>

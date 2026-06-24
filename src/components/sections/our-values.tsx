@@ -2,7 +2,7 @@ import { CollaborationIcon, InnovationIcon, QualityIcon, SuccessValueIcon } from
 
 export const OurValues = () => {
   return (
-    <section className="bg-secondary-500 py-28">
+    <section className="bg-secondary-500 py-12 md:py-28">
       <div className="container">
         <div>
           <div className="text-center">
