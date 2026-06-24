@@ -21,8 +21,8 @@ export const OurStory = () => {
 
         <div>
           <div>
-            <p className="text-primary-600 font-semibold max-md:text-sm">Our story</p>
-            <h1 className="text-secondary-500 text-2xl md:text-3xl font-semibold mt-3"> From Vision To Innovation</h1>
+            <p className="text-primary-600 font-semibold max-md:text-sm">Our Story</p>
+            <h1 className="text-secondary-500 text-2xl md:text-3xl font-semibold mt-3">From Vision To Innovation</h1>
             <p className="text-sm mt-5 text-gray-600">
               LevelAxis was built with a mission to bridge the gap between advanced technology and real business challenges. What started as a vision to create impactful digital solutions has evolved
               into a trusted technology partner delivering AI, software, and automation solutions across industries.
